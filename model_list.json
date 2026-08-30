@@ -1,9 +1,8 @@
 {
   "messages": [
-    "我是芙宁娜，歌剧院的女主角哦～"
+    "Hello world"
   ],
   "models": [
-    "furina",
-    "BCSZ1.1"
+    "cyrene"
   ]
 }
