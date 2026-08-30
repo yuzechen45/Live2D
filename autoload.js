@@ -1,3 +1,4 @@
+
 /*!
  * 芙宁娜 Live2D 看板娘 - 自定义加载脚本
  * 基于 live2d-widget (https://github.com/827802685/live2d-widget)
@@ -147,9 +148,8 @@ function installProgressTracker() {
     logLevel: 'info'
   });
 
-  // 加载参数设置面板（右下角齿轮可收起/唤出，拖动滑块即时调参）
-  // loadExternalResource(live2d_path + 'config-panel.js', 'js');
-// })();
+  // 设置面板加载已移除
+})();
 
 // 加载动画 + 渲染门控：模型真正渲染出第一帧(live2d:rendered)前，看板娘保持隐藏，只显示转圈 + 实时下载进度
 function showLoading() {
