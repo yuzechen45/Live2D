@@ -9,7 +9,7 @@
 // 固定为 GitHub Pages 绝对路径（同源，CORS 就绪）
 const live2d_path = 'https://yuzechen45.github.io/Live2D/dist/';
 // 模型大文件（91MB moc3 等）走自定义加速 DNS（镜像 raw.githubusercontent.com），避免 github.io 传输大文件过慢
-const model_root = 'https://raw-githubusercontent-com-gh.zjkl0330.dpdns.org/827802685/Live2D/refs/heads/master/';
+const model_root = 'https://yuzechen45.github.io/Live2D/';
 
 // 封装异步资源加载
 function loadExternalResource(url, type) {
