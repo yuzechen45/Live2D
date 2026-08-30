@@ -148,8 +148,8 @@ function installProgressTracker() {
   });
 
   // 加载参数设置面板（右下角齿轮可收起/唤出，拖动滑块即时调参）
-  loadExternalResource(live2d_path + 'config-panel.js', 'js');
-})();
+  // loadExternalResource(live2d_path + 'config-panel.js', 'js');
+// })();
 
 // 加载动画 + 渲染门控：模型真正渲染出第一帧(live2d:rendered)前，看板娘保持隐藏，只显示转圈 + 实时下载进度
 function showLoading() {
