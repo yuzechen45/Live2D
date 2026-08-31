@@ -40,7 +40,11 @@
 }
 
 #waifu.waifu-hidden {
-	display: none;
+		/* 用 visibility 代替 display:none：避免 canvas 塌缩成 0×0 导致
+	   WebGL viewport/模型投影矩阵损坏，重新显示时头部显示不全。
+	   pointer-events:none 确保隐藏期间不拦截鼠标、不触发 hover 位移。 */
+	visibility: hidden;
+	pointer-events: none;
 }
 
 #waifu:hover {
